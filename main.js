@@ -25,7 +25,7 @@ function getRandom () {
             setTimeout(function() {
                 widget.style.borderColor = "rgb(29, 29, 29)";
             }, (1 * 1000));
-            countOut.innerHTML = count
+            countOut.innerHTML = count + "/" + keys.length
         } else if (txt.value.toLowerCase() == ""){
             return
         } else {
@@ -36,7 +36,7 @@ function getRandom () {
             count = 0
             word = keys[count]
             out.innerHTML = word
-            countOut.innerHTML = count
+            countOut.innerHTML = count + "/" + keys.length
         }
         txt.value = "" 
     } else {
