@@ -1,6 +1,23 @@
 <!DOCTYPE html>
+
 <html>
-<body>
-<img src="map.jpg"></img>
-</body>
+    <head>
+        <link rel="stylesheet" href="verbi.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">      
+    </head>
+    <body>
+        
+        <div class="widget" id="widget">
+            <h style="order:1"><b>Verbi tedeschi</b></h>
+            <div class = "app">
+                
+                <span id = "text"></span><br>
+                <input type="text" id="input" value=""><br>
+                <button onclick = "getRandom()" id ="btn">start!</button><br>
+                <span id="count">0</span>
+            </div>
+            
+        </div>
+    </body>
+    <script src="main.js"></script>
 </html>
