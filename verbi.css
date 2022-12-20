@@ -47,6 +47,10 @@ body {
     position:relative;
     top:20px;
 }
+.disclamer{
+    margin-top: auto;
+    order:99;
+}
 
 @media (orientation: portrait) {
     .widget {
