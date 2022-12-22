@@ -19,39 +19,6 @@ body {
     align-items: center;
     text-align: center;
 }
-
-.widget h {
-    position:relative;
-    top: 20px;
-}
-
-.app {
-    order: 2;
-    position: relative;
-    top: 150px;
-    text-align: center;
-}
-
-.app button {
-    position:relative;
-    height:22px;
-    width: 70px;
-    text-align: center;
-    top:10px;
-    color:white;
-    background-color: orangered;
-    border: 0px;
-    border-radius: 3px;
-}
-#count {
-    position:relative;
-    top:20px;
-}
-.disclamer{
-    margin-top: auto;
-    order:99;
-}
-
 @media (orientation: portrait) {
     .widget {
         background-color: transparent;
@@ -61,4 +28,65 @@ body {
     body {
         background-color: rgb(29, 29, 29);
     }
+}
+.widget h {
+    position:relative;
+    top: 20px;
+}
+button {
+    text-align: center;    
+    color:white;
+    background-color: orangered;
+    border: 0px;
+    border-radius: 3px;
+    height:22px;
+}
+.app {
+    order: 2;
+    position: relative;
+    top: 150px;
+}
+
+/*main game stuff */
+
+#game {
+    text-align: center;
+}
+#count {
+    position:relative;
+    top:20px;
+}
+.disclamer{
+    margin-top: auto;
+    order:99;
+}
+#btn {
+    position:relative;
+
+    width: 70px;
+    top:10px;
+}
+
+
+
+/* settings stuff */
+
+#imp {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    visibility:hidden;
+    position:relative;
+    top: -115px;
+    accent-color: orangered;
+}
+#imp span {
+    width:100px;
+}
+#imp_btn {
+    position:relative;
+    height:22px;
+    order:3;
+    top:180px;
 }

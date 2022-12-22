@@ -10,13 +10,22 @@
         <div class="widget" id="widget">
             <h style="order:1"><b>Verbi tedeschi<br>participio</b></h>
             <div class = "app">
-                
-                <span id = "text"></span><br>
-                <input type="text" id="input" value=""><br>
-                <button onclick = "getRandom()" id ="btn">start!</button><br>
-                <span id="count">0/34</span>
+                <div id = "game">
+                    <span id = "text"></span><br>
+                    <input type="text" id="input" value=""><br>
+                    <button onclick = "play()" id ="btn">start!</button><br>
+                    <span id="count">0/34</span><br><br>
+                    <button onclick = "stop()">riavvia</button>
+                </div>
+                <div id = "imp">
+                    <span><input type="radio" name="mode" value="normal" id="normal">
+                    <label for="normal">Normale</label></span><br>
+                    <span><input type="radio" name="mode" value="strict" id="strict">
+                    <label for="strict">Difficile</label></span><br>
+                </div>
             </div>
-            <span class="disclamer">This project is still WIP!</span>
+            <button onclick="settings()" id="imp_btn">Impostazioni</button>
+            <span class="disclamer">V 1.1</span>
         </div>
     </body>
     <script src="main.js"></script>
