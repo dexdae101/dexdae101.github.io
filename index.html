@@ -18,10 +18,15 @@
                     <button onclick = "stop()">riavvia</button>
                 </div>
                 <div id = "imp">
+                    <span>Difficolta</span> 
                     <span><input type="radio" name="mode" value="normal" id="normal">
                     <label for="normal">Normale</label></span><br>
                     <span><input type="radio" name="mode" value="strict" id="strict">
                     <label for="strict">Difficile</label></span><br>
+                    <span><select name="options", id="options">
+                        <option value="verbi">Verbi Tedesco</option>
+                        <option value="capitali delle Americhe">Capitali delle Americhe</option>
+                    </select></span>
                 </div>
             </div>
             <button onclick="settings()" id="imp_btn">Impostazioni</button>
